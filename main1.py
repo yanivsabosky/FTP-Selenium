@@ -20,7 +20,7 @@ URLS = {'b':'www.bbc.com', 'ab':'abcnews.go.com', 'g':'www.theguardian.com'}
 parser = argparse.ArgumentParser(
                 prog = 'News To Document',
                 description = 'this program combine web scraping, document creation and file transfer functionality',
-                epilog = 'hope U like our work')
+                epilog = 'hope U like my work')
 
 parser.add_argument('-site', '--s', required=True, choices=URLS.keys(),
                     help='choose site to scrape: "b" for bbc, "ab" for abc and "g" for theguardian')
